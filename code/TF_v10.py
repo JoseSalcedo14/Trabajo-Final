@@ -2,7 +2,7 @@ from abc import ABC, abstractmethod
 from datetime import datetime, timedelta
 import pandas as pd
 import matplotlib.pyplot as plt
-
+##pull prueba
 
 class Persona(ABC):
     def __init__(self, nombres, apellidos, dni):
